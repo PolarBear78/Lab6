@@ -1,4 +1,44 @@
-td, th {
-	border: 1px solid;
-  }
-  
+body {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border: 6px double;
+  height: 96vh;
+  width: 99vw;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+#planets {
+  border: 6px double;
+  border-color:#ffffff;
+  width: 99vw;
+  height: 96vh;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px; 
+  border: 0.3vh dotted;
+}
+
+th {
+  font-weight: bold;
+}
+
+.image-container {
+  font-weight: bold;
+}
+.Data_Units {
+  font-style: oblique;
+  background-color: #000000; 
+}
+
+#planets img {
+  width: 150px; 
+  height: auto; 
+} 
